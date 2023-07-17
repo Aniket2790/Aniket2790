@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int sum (int a,int b); //thi function is for with argument and with return value
+void printstar(int n) { //this is for without argument and with return value
+	for(int i=0; i<n; i++) {
+		printf("%c\n",'*');
+	}
+}
+
+int takenumber() { //this is for without argument and with return value
+	int i;
+	printf("enter the number ");
+	scanf("%d",&i);
+}
+
+int main () {
+	int a,b,c;
+	a=23;
+	b=73;
+	c=takenumber();
+//c=sum(a,b);
+//printstar
+//(8);
+	takenumber();
+	printf("the number is %d",c);
+//	printf("THE SUM IS %d\n",c);
+	return 0;
+}
+int sum(int a,int b) {
+	return a+b;
+}

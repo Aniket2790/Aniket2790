@@ -1,0 +1,41 @@
+/*cll by value function is used in the following code
+
+what is call by value function -
+In call by value method of parameter passing, the values of actual parameters are copied to the function’s formal parameters.
+
+actual papameter is refer as original copy whereas formal refer as function copy.
+
+Any changes made inside functions are not reflected in the actual parameters of the caller.
+*/
+#include <stdio.h>
+  
+//swaping of two numbers 
+
+//start function
+void swapx(int x, int y);
+  
+
+int main()
+{
+	//taking integer
+    int a = 10, b = 20;
+  
+//calling of function
+    swapx(a, b);
+  
+    printf("In the Caller:\n a = %d b = %d\n", a, b);
+  
+    return 0;
+}
+  
+
+void swapx(int x, int y)
+{
+    int t;
+  
+    t = x;
+    x = y;
+    y = t;
+  
+    printf("Inside Function:\n x = %d y = %d\n", x, y);
+}

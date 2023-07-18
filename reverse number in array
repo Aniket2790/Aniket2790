@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+// here is the problem solve for reversing an array numer entered by the user
+	int i,n,a[50];
+	
+	printf("read and print the something\n ");
+	printf("----------------\n");
+
+// taking the size of array from the user
+	printf("input the number of elements to store in array \n ");
+	scanf("%d",&n);
+
+// entering the value of array
+	for(int i=0;i<n;i++)
+	 {
+	 	printf("elements  %d::",i);
+	 	scanf("%d",&a[i]);
+}
+
+// printing the values stored in array
+
+	printf("the value store in the array are :");
+		for(int i=0;i<n;i++)
+		{
+			printf("%d \n ",a[i]);
+		}
+//pinting the values after reversing 
+		
+		printf("the value store in the array in reverse order\n:");
+		for(int i=n-1;i>=0;i--)
+{
+	printf("%d \n",a[i]);
+	}	
+	printf("\n");
+	return 0;
+}

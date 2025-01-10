@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Aniket2790
 - 👀 I’m interested in  coding
-- 🌱 I’m currently learning DSA with c/c++
+- 🌱 I’m currently learning DSA with java
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me through my mail id - tiwarianiket605@gmail.com
 
